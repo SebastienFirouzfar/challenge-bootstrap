@@ -1,0 +1,16 @@
+$gridTemplateColumn:repeat(4, 5px) ;
+$gridTemplateRows:repeat(4, 10px) ;
+$gridDisplay :grid; 
+
+ 
+
+
+@mixin gridTemplate() {
+    grid: $gridDisplay;
+    grid-template-columns: $gridTemplateColumn;
+    grid-template-rows:$gridTemplateRows ;    
+}
+
+.contenaire{
+    @include gridTemplate(); 
+}
