@@ -12,3 +12,8 @@
     transform: scale(1.1); 
     box-shadow: 8px 8px 12px white,  -8px -8px 12px white;
   }
+
+  .container{
+      margin: 20px;
+  }
+
